@@ -1,0 +1,95 @@
+.people-management {
+    background-color: #0a1a2f;
+    color: white;
+    min-height: 100vh;
+    padding: 100px 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header-section h1 {
+    font-size: 54px;
+    font-weight: 300;
+    margin-bottom: 24px;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .logo-emblem {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 50px;
+  }
+  
+  .celtic-knot {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 0 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: #f8f7f2;
+    color: #0a1a2f;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card {
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    .header-section h1 {
+      font-size: 40px;
+    }
+  }

@@ -1,0 +1,124 @@
+/* components/LuxuryShowcase.css */
+.luxury-background {
+  background-color: #ffffff; /* Full white background */
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.luxury-showcase {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff; /* White background for the main content area */
+}
+
+.luxury-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.craftsmanship {
+  display: block;
+  color: #b8860b;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.luxury-title {
+  font-size: 3rem;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.elevated-style {
+  display: block;
+  color: #666;
+  font-size: 1rem;
+}
+
+.showcase-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.showcase-item {
+  width: calc(25% - 1.5rem);
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-color: #f9f5f0;
+  margin-bottom: 1rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+.item-description {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.item-description h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.item-description p {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.showcase-button {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 0.6rem 2rem;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.showcase-button:hover {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+}
+
+@media (max-width: 1024px) {
+  .showcase-item {
+    width: calc(50% - 1.5rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .showcase-item {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .luxury-title {
+    font-size: 2.5rem;
+  }
+}

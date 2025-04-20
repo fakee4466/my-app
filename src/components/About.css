@@ -1,0 +1,49 @@
+/* src/pages/About.css */
+.about-section {
+  background-color: #a6a1a1;
+  padding: 100px 20px 50px;
+  font-family: 'Georgia', serif;
+  color: #000000;
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.about-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 0 30px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.about-text.full {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 400px;
+  border-radius: 16px;
+  margin: 20px;
+}
